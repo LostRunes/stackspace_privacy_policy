@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - StackSpace</title>
+    <meta name="description" content="Privacy Policy for StackSpace. Understand how we collect, use, and protect your information when utilizing our platform.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Tailwind CSS Play CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['"Plus Jakarta Sans"', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            blue: '#0A66C2',
+                            darkBlue: '#004182',
+                            lightBg: '#F0F6FA',
+                            text: '#191919',
+                            mutedText: '#414752',
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            color: #191919;
+            background-color: #F0F6FA;
+        }
+        /* Custom scrollbar styling */
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F0F6FA;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #C1C6D4;
+            border-radius: 4px;
+        }
+        ::-webkit-scrollbar-thumb:hover {
+            background: #0A66C2;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased selection:bg-brand-blue selection:text-white min-h-screen flex flex-col">
+
+    <!-- Top Navigation Bar -->
+    <header class="sticky top-0 z-50 backdrop-blur-md bg-white/80 border-b border-[#C1C6D4]/50 shadow-sm transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between">
+            <!-- Brand Logo -->
+            <a href="#" class="flex items-center space-x-2 group">
+                <div class="w-10 h-10 rounded-xl bg-brand-blue flex items-center justify-center text-white font-extrabold text-xl shadow-md shadow-brand-blue/20 transition-transform group-hover:scale-105">
+                    S
+                </div>
+                <span class="text-xl font-bold tracking-tight text-brand-darkBlue bg-gradient-to-r from-brand-darkBlue to-brand-blue bg-clip-text text-transparent">
+                    StackSpace
+                </span>
+            </a>
+            
+            <!-- Context badge -->
+            <div class="flex items-center space-x-4">
+                <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-emerald-50 text-emerald-700 border border-emerald-200">
+                    <span class="w-1.5 h-1.5 rounded-full bg-emerald-500 mr-1.5 animate-pulse"></span>
+                    Official Policy
+                </span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <div class="flex-grow max-w-7xl w-full mx-auto px-4 sm:px-6 lg:px-8 py-10 lg:py-16">
+        <div class="lg:flex lg:gap-10">
+            
+            <!-- Side Navigation Menu (Sticky) -->
+            <aside class="hidden lg:block lg:w-64 flex-shrink-0">
+                <div class="sticky top-24 space-y-6">
+                    <div class="bg-white rounded-2xl p-6 border border-[#C1C6D4]/40 shadow-sm">
+                        <h3 class="text-xs font-bold uppercase tracking-wider text-brand-mutedText/75 mb-4">Table of Contents</h3>
+                        <nav class="space-y-1">
+                            <a href="#welcome" class="flex items-center px-3 py-2 text-sm font-medium rounded-lg text-brand-blue bg-brand-blue/5 border-l-2 border-brand-blue transition-all duration-200 toc-link">Welcome</a>
+                            <a href="#information-we-collect" class="flex items-center px-3 py-2 text-sm font-medium rounded-lg text-brand-mutedText hover:text-brand-blue hover:bg-brand-blue/5 border-l-2 border-transparent hover:border-brand-blue/30 transition-all duration-200 toc-link">Information We Collect</a>
+                            <a href="#authentication" class="flex items-center px-3 py-2 text-sm font-medium rounded-lg text-brand-mutedText hover:text-brand-blue hover:bg-brand-blue/5 border-l-2 border-transparent hover:border-brand-blue/30 transition-all duration-200 toc-link">Authentication</a>
+                            <a href="#how-we-use-information" class="flex items-center px-3 py-2 text-sm font-medium rounded-lg text-brand-mutedText hover:text-brand-blue hover:bg-brand-blue/5 border-l-2 border-transparent hover:border-brand-blue/30 transition-all duration-200 toc-link">How We Use Information</a>
+                            <a href="#data-storage" class="flex items-center px-3 py-2 text-sm font-medium rounded-lg text-brand-mutedText hover:text-brand-blue hover:bg-brand-blue/5 border-l-2 border-transparent hover:border-brand-blue/30 transition-all duration-200 toc-link">Storage & Security</a>
+                            <a href="#third-party-services" class="flex items-center px-3 py-2 text-sm font-medium rounded-lg text-brand-mutedText hover:text-brand-blue hover:bg-brand-blue/5 border-l-2 border-transparent hover:border-brand-blue/30 transition-all duration-200 toc-link">Third-Party Services</a>
+                            <a href="#advertising" class="flex items-center px-3 py-2 text-sm font-medium rounded-lg text-brand-mutedText hover:text-brand-blue hover:bg-brand-blue/5 border-l-2 border-transparent hover:border-brand-blue/30 transition-all duration-200 toc-link">Advertising</a>
+                            <a href="#childrens-privacy" class="flex items-center px-3 py-2 text-sm font-medium rounded-lg text-brand-mutedText hover:text-brand-blue hover:bg-brand-blue/5 border-l-2 border-transparent hover:border-brand-blue/30 transition-all duration-200 toc-link">Children's Privacy</a>
+                            <a href="#changes" class="flex items-center px-3 py-2 text-sm font-medium rounded-lg text-brand-mutedText hover:text-brand-blue hover:bg-brand-blue/5 border-l-2 border-transparent hover:border-brand-blue/30 transition-all duration-200 toc-link">Changes to Policy</a>
+                            <a href="#contact" class="flex items-center px-3 py-2 text-sm font-medium rounded-lg text-brand-mutedText hover:text-brand-blue hover:bg-brand-blue/5 border-l-2 border-transparent hover:border-brand-blue/30 transition-all duration-200 toc-link">Contact Us</a>
+                        </nav>
+                    </div>
+                </div>
+            </aside>
+
+            <!-- Main Policy Content -->
+            <main class="flex-1 max-w-3xl">
+                <article class="bg-white rounded-3xl p-6 sm:p-10 md:p-12 border border-[#C1C6D4]/40 shadow-sm space-y-12">
+                    
+                    <!-- Welcome & Header -->
+                    <section id="welcome" class="space-y-4 scroll-mt-24">
+                        <div class="space-y-2">
+                            <span class="text-sm font-semibold tracking-wider text-brand-blue uppercase">Legal Document</span>
+                            <h1 class="text-3xl sm:text-4xl font-extrabold text-brand-darkBlue tracking-tight">Privacy Policy for StackSpace</h1>
+                            <p class="text-sm text-brand-mutedText">Last Updated: June 2026</p>
+                        </div>
+                        <div class="h-[2px] bg-gradient-to-r from-brand-blue/40 to-transparent my-6"></div>
+                        <p class="text-base sm:text-lg text-brand-text leading-relaxed">
+                            Welcome to <strong>StackSpace</strong>. Your privacy is paramount to us. This Privacy Policy outlines how StackSpace collects, uses, processes, and protects your personal and professional information when you use our application.
+                        </p>
+                    </section>
+
+                    <!-- Information We Collect -->
+                    <section id="information-we-collect" class="space-y-5 scroll-mt-24">
+                        <div class="flex items-center space-x-3">
+                            <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-blue/10 text-brand-blue text-sm font-bold">1</span>
+                            <h2 class="text-xl sm:text-2xl font-bold text-brand-darkBlue">Information We Collect</h2>
+                        </div>
+                        <p class="text-brand-mutedText leading-relaxed">
+                            To provide a comprehensive professional learning, collaboration, and placement dashboard experience, StackSpace may collect the following categories of information:
+                        </p>
+                        <div class="grid gap-4 sm:grid-cols-2 mt-4">
+                            <div class="p-5 rounded-2xl bg-[#F0F6FA]/60 border border-[#C1C6D4]/20 hover:border-brand-blue/20 hover:bg-[#F0F6FA] transition-all">
+                                <h3 class="font-bold text-brand-darkBlue text-base mb-1">User Profile Data</h3>
+                                <p class="text-sm text-brand-mutedText">Name, email address, profile avatar, biography, department, and custom listed skills.</p>
+                            </div>
+                            <div class="p-5 rounded-2xl bg-[#F0F6FA]/60 border border-[#C1C6D4]/20 hover:border-brand-blue/20 hover:bg-[#F0F6FA] transition-all">
+                                <h3 class="font-bold text-brand-darkBlue text-base mb-1">Professional Links</h3>
+                                <p class="text-sm text-brand-mutedText">Linked GitHub profiles, LinkedIn URLs, and portfolio links for placement applications.</p>
+                            </div>
+                            <div class="p-5 rounded-2xl bg-[#F0F6FA]/60 border border-[#C1C6D4]/20 hover:border-brand-blue/20 hover:bg-[#F0F6FA] transition-all">
+                                <h3 class="font-bold text-brand-darkBlue text-base mb-1">Project & Task Progress</h3>
+                                <p class="text-sm text-brand-mutedText">Study progress, task completion, active tasks, contribution scores, and submission history.</p>
+                            </div>
+                            <div class="p-5 rounded-2xl bg-[#F0F6FA]/60 border border-[#C1C6D4]/20 hover:border-brand-blue/20 hover:bg-[#F0F6FA] transition-all">
+                                <h3 class="font-bold text-brand-darkBlue text-base mb-1">Application Materials</h3>
+                                <p class="text-sm text-brand-mutedText">Cover letters, applied roles, and interview preparation logs within the system.</p>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Authentication -->
+                    <section id="authentication" class="space-y-4 scroll-mt-24">
+                        <div class="flex items-center space-x-3">
+                            <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-blue/10 text-brand-blue text-sm font-bold">2</span>
+                            <h2 class="text-xl sm:text-2xl font-bold text-brand-darkBlue">Authentication</h2>
+                        </div>
+                        <p class="text-brand-text leading-relaxed">
+                            StackSpace utilizes secure authentication mechanisms, including integrations with <strong>Supabase Authentication</strong>, to allow users to securely sign in, sync data, and manage account details. When you sign in, certain data elements such as your email address and profile details are securely processed and stored by Supabase.
+                        </p>
+                        <a href="https://supabase.com/privacy" target="_blank" rel="noopener noreferrer" class="inline-flex items-center space-x-2 text-brand-blue hover:text-brand-darkBlue font-semibold text-sm transition-colors group">
+                            <span>Learn more about Supabase's Privacy Policy</span>
+                            <span class="inline-block transform transition-transform group-hover:translate-x-1">→</span>
+                        </a>
+                    </section>
+
+                    <!-- How We Use Information -->
+                    <section id="how-we-use-information" class="space-y-4 scroll-mt-24">
+                        <div class="flex items-center space-x-3">
+                            <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-blue/10 text-brand-blue text-sm font-bold">3</span>
+                            <h2 class="text-xl sm:text-2xl font-bold text-brand-darkBlue">How We Use Information</h2>
+                        </div>
+                        <p class="text-brand-mutedText leading-relaxed">
+                            We use the collected information for purposes centered around facilitating collaboration, learning, and placement coordination:
+                        </p>
+                        <ul class="space-y-3 pl-2">
+                            <li class="flex items-start">
+                                <span class="text-brand-blue mr-3 mt-1.5">•</span>
+                                <span class="text-brand-text"><strong>Maintain Core Functionality:</strong> Facilitating user registration, profile generation, and custom dashboard view setup.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-brand-blue mr-3 mt-1.5">•</span>
+                                <span class="text-brand-text"><strong>Project Tracking:</strong> Enabling you to sign up for roles, track task status, and update achievements or scores.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-brand-blue mr-3 mt-1.5">•</span>
+                                <span class="text-brand-text"><strong>Placement Matching:</strong> Syncing database queries for ongoing drives, checking criteria, and coordinating interview links.</span>
+                            </li>
+                            <li class="flex items-start">
+                                <span class="text-brand-blue mr-3 mt-1.5">•</span>
+                                <span class="text-brand-text"><strong>Communications:</strong> Sending notifications, alerts, success flags, and replying to user support inquiries.</span>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <!-- Data Storage and Security -->
+                    <section id="data-storage" class="space-y-4 scroll-mt-24">
+                        <div class="flex items-center space-x-3">
+                            <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-blue/10 text-brand-blue text-sm font-bold">4</span>
+                            <h2 class="text-xl sm:text-2xl font-bold text-brand-darkBlue">Data Storage & Security</h2>
+                        </div>
+                        <p class="text-brand-text leading-relaxed">
+                            We implement industry-standard organizational and technical measures to shield your data from unauthorized access, loss, or disclosure. Please be aware that no platform or transmission method over the internet is completely impregnable, and we cannot guarantee absolute security.
+                        </p>
+                    </section>
+
+                    <!-- Third-Party Services -->
+                    <section id="third-party-services" class="space-y-4 scroll-mt-24">
+                        <div class="flex items-center space-x-3">
+                            <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-blue/10 text-brand-blue text-sm font-bold">5</span>
+                            <h2 class="text-xl sm:text-2xl font-bold text-brand-darkBlue">Third-Party Services</h2>
+                        </div>
+                        <p class="text-brand-mutedText leading-relaxed">
+                            StackSpace utilizes the following integrations to optimize features:
+                        </p>
+                        <div class="space-y-3 bg-[#F0F6FA]/50 border border-[#C1C6D4]/30 rounded-2xl p-5">
+                            <div class="flex justify-between border-b border-[#C1C6D4]/20 pb-2">
+                                <span class="font-bold text-brand-darkBlue">Supabase</span>
+                                <span class="text-sm text-brand-mutedText">Authentication & DB Storage</span>
+                            </div>
+                            <div class="flex justify-between border-b border-[#C1C6D4]/20 pb-2">
+                                <span class="font-bold text-brand-darkBlue">GitHub & LinkedIn</span>
+                                <span class="text-sm text-brand-mutedText">Profile Integration & Verifications</span>
+                            </div>
+                            <div class="flex justify-between">
+                                <span class="font-bold text-brand-darkBlue">Google Meet / Video Platforms</span>
+                                <span class="text-sm text-brand-mutedText">Interview Coordination</span>
+                            </div>
+                        </div>
+                    </section>
+
+                    <!-- Advertising -->
+                    <section id="advertising" class="space-y-4 scroll-mt-24">
+                        <div class="flex items-center space-x-3">
+                            <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-blue/10 text-brand-blue text-sm font-bold">6</span>
+                            <h2 class="text-xl sm:text-2xl font-bold text-brand-darkBlue">Advertising</h2>
+                        </div>
+                        <div class="p-4 rounded-xl bg-emerald-50 border border-emerald-200 text-emerald-800 text-sm">
+                            <strong>No Advertisements:</strong> StackSpace is committed to keeping your collaboration environment distraction-free. We do not display third-party advertisements.
+                        </div>
+                    </section>
+
+                    <!-- Children's Privacy -->
+                    <section id="childrens-privacy" class="space-y-4 scroll-mt-24">
+                        <div class="flex items-center space-x-3">
+                            <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-blue/10 text-brand-blue text-sm font-bold">7</span>
+                            <h2 class="text-xl sm:text-2xl font-bold text-brand-darkBlue">Children's Privacy</h2>
+                        </div>
+                        <p class="text-brand-text leading-relaxed">
+                            StackSpace is not intended for use by individuals under the age of 18. We do not knowingly compile or store personal records from children under 18 years of age.
+                        </p>
+                    </section>
+
+                    <!-- Changes to This Privacy Policy -->
+                    <section id="changes" class="space-y-4 scroll-mt-24">
+                        <div class="flex items-center space-x-3">
+                            <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-blue/10 text-brand-blue text-sm font-bold">8</span>
+                            <h2 class="text-xl sm:text-2xl font-bold text-brand-darkBlue">Changes to This Privacy Policy</h2>
+                        </div>
+                        <p class="text-brand-text leading-relaxed">
+                            We reserve the right to revise this Privacy Policy periodically. Any modifications made will be reflected directly on this page alongside an updated revision date.
+                        </p>
+                    </section>
+
+                    <!-- Contact Us -->
+                    <section id="contact" class="space-y-4 scroll-mt-24">
+                        <div class="flex items-center space-x-3">
+                            <span class="flex items-center justify-center w-8 h-8 rounded-lg bg-brand-blue/10 text-brand-blue text-sm font-bold">9</span>
+                            <h2 class="text-xl sm:text-2xl font-bold text-brand-darkBlue">Contact Us</h2>
+                        </div>
+                        <p class="text-brand-mutedText">
+                            If you have questions, feedback, or concerns regarding our privacy practices, please contact us at:
+                        </p>
+                        <div class="p-6 rounded-2xl bg-[#F0F6FA]/80 border border-[#C1C6D4]/30 shadow-inner space-y-2">
+                            <h4 class="font-extrabold text-brand-darkBlue text-lg">Abinash Mohanty</h4>
+                            <div class="flex flex-col sm:flex-row sm:space-x-6 text-sm text-brand-mutedText">
+                                <div>
+                                    <span class="font-semibold text-brand-text">Email: </span>
+                                    <a href="mailto:abinash.mohanty.contact@gmail.com" class="text-brand-blue hover:underline">abinash.mohanty.contact@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                </article>
+            </main>
+
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-brand-darkBlue text-white/90 border-t border-[#C1C6D4]/20 py-8 mt-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center space-y-4">
+            <p class="text-sm">&copy; 2026 StackSpace. All rights reserved.</p>
+            <p class="text-xs text-white/50">Designed with security and clarity in mind.</p>
+        </div>
+    </footer>
+
+    <!-- Interactive navigation highlighter script -->
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const sections = document.querySelectorAll('section');
+            const navLinks = document.querySelectorAll('.toc-link');
+
+            window.addEventListener('scroll', () => {
+                let current = '';
+                sections.forEach(section => {
+                    const sectionTop = section.offsetTop;
+                    const sectionHeight = section.clientHeight;
+                    if (window.scrollY >= (sectionTop - 120)) {
+                        current = section.getAttribute('id');
+                    }
+                });
+
+                navLinks.forEach(link => {
+                    link.classList.remove('text-brand-blue', 'bg-brand-blue/5', 'border-l-2', 'border-brand-blue');
+                    link.classList.add('text-brand-mutedText', 'border-transparent');
+                    if (link.getAttribute('href') === `#${current}`) {
+                        link.classList.remove('text-brand-mutedText', 'border-transparent');
+                        link.classList.add('text-brand-blue', 'bg-brand-blue/5', 'border-l-2', 'border-brand-blue');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
